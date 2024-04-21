@@ -1,0 +1,31 @@
+h1{
+    color:red ;
+    font-family: Verdana;
+    text-align: center;
+    font: optional;
+}
+h2{
+    color: blue;
+    font-size: medium;
+    font-style: italic;
+}
+p{
+    color: aqua;
+    font-size: medium;
+    font-style: normal;
+}
+.boton-personalizado {
+    background-color: #4CAF50; 
+    color: black;            
+    padding: 10px 20px;       
+    border: none;          
+             
+    font-size: 16px;  
+    padding: auto;   
+         
+  
+  }
+  
+ 
+  
+  
