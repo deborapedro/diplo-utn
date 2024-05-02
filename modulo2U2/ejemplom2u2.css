@@ -1,0 +1,21 @@
+div{
+  width: 200px;
+  height: 150px;
+  background-color: aqua;
+  border:2px solid;
+}
+
+div:hover {
+    background-color: cornflowerblue;
+}
+span{
+    background-color:rosybrown;
+    border:2px solid black; 
+    padding: 5px;
+
+
+} 
+span::after{
+    content: "derecha";
+    background-color: aliceblue;
+}
