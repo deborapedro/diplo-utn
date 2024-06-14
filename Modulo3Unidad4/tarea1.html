@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>agregar y remover clase de css</title>
+</head>
+<body>
+    <div id="cuadrado1" class="cuadrado"></div>
+    <div id="cuadrado2" class="cuadrado"></div>
+    <div id="cuadrado3" class="cuadrado"></div>
+    <script>
+    document.addEventListener ("DOMContentLoaded" ,function(){
+        const cuadrados = document.querySelectorAll(".cuadrado");
+        cuadrados.forEach(cuadrado => {
+            cuadrado.addEventListener("click", function() {
+                const color = window.getComputedStyle(cuadrado).backgroundColor;
+                document.body.style.backgroundColor = color;
+            });
+        });
+    });
+</script>  
+    
+</body>
+</html>

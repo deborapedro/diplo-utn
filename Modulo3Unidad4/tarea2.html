@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Letras</title>
+</head>
+<body>
+    <textarea id="miTextarea" rows="4" cols="50" placeholder="Escribe aquí..." maxlength="100"></textarea>
+    <p id="charNum">0 caracteres</p>
+
+    <script>
+        const textarea = document.getElementById('miTextarea');
+        const charNum = document.getElementById('charNum');
+        const maxLength = parseInt(textarea.getAttribute('maxlength'));
+
+        textarea.addEventListener('input', () => {
+            const strLength = textarea.value.length;
+            if (strLength > maxLength) {
+                charNum.innerHTML = `<span style="color: red;">${strLength} fuera de ${maxLength} caracteres</span>`;
+            } else {
+                charNum.innerHTML = `${strLength} de ${maxLength} caracteres`;
+            }
+        });
+    </script>
+</body>
+</html>
