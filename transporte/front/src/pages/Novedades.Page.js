@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 const NovedadesPage = (props) => {
-    return (
+    return(
         <div>NovedadesPage</div>
     );
 }
