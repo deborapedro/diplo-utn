@@ -5,10 +5,10 @@ import Nav from './componentes/Nav';
 import Footer from './componentes/Footer';
 
 
-import ContactoPage from './pages/ContactoPage.js';
-import HomePage from './pages/HomePage.js';
-import NosotrosPage from './pages/NosotrosPage.js';
-import NovedadesPage from './pages/NovedadesPage.js';
+import ContactoPage from './pages/ContactoPage';
+import HomePage from './pages/HomePage';
+import NosotrosPage from './pages/NosotrosPage';
+import NovedadesPage from './pages/NovedadesPage';
 
 
 function App() {
