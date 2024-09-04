@@ -1,4 +1,4 @@
-import React from 'react';
+import "../stylo/nosotros.css"
 const NosotrosPage = (props) => {
     return (
         <main className="holder">
@@ -15,7 +15,7 @@ const NosotrosPage = (props) => {
                 <h2>Staff</h2>
                 <div className="personas">
                     <div className="persona">
-                        <img src="img/nosotros/nosotros1.jpg" alt="Juan Gomez" />
+                        <img src="imga/img/nosotros/nosotros1.jpg" alt="Juan Gomez" />
                         <h5>Juan Gomez</h5>
                         <h6>Gerente General</h6>
                         <p>Lorem gbfgggbgffgbfcbfb ffgb

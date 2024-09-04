@@ -1,9 +1,11 @@
+import'../stylo/home.css';
+
 import React from 'react';
 const HomePage = (props) => {
     return (
         <main className="holder">
             <div className="homeimg">
-                <img src="imagenes/home/img01.jpg" alt="avion" />
+                <img src="imag/img/home/img01.jpg" alt="avion" />
             </div>
             <div className="columnas">
                 <div classename="bienvenidos left">

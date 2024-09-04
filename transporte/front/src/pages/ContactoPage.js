@@ -1,3 +1,6 @@
+import'../stylo/contacto.css';
+
+
 import React from 'react';
 const ContactoPage = (props) => {
     return (

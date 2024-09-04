@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header {
+  background-color: blue;
+  padding: 10px 0;
+}
+
+header h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 10px;
+
+}
+
+nav {
+  background-color: cornflowerblue;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 1;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: black;
+}
+
+footer {
+  background-color: rgb(122, 120, 120);
+  clear: both;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+nav ul li a.activo {
+  background-color: dodgerblue;
+}
+
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: cornflowerblue;
+  font-weight: 400px;
+}
